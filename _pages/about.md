@@ -3,6 +3,8 @@
 layout: about
 title: about
 permalink: /
+nav: true
+nav_order: 1
 subtitle: Electrical and Computer Engineering · Carnegie Mellon University
 
 profile:
