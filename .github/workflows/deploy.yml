@@ -97,13 +97,16 @@ jobs:
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
-      - name: Check generated Coursework page
+      - name: Diagnose Coursework file
         run: |
-          echo "Checking source file..."
-          ls -l _pages/coursework.md
+          echo "First 16 bytes of Coursework:"
+          head -c 16 _pages/coursework.md | od -An -tx1
       
-          echo "Searching generated website..."
-          find _site -iname '*coursework*' -print
+          echo "First 10 lines with invisible characters:"
+          sed -n '1,10l' _pages/coursework.md
+      
+          echo "Compare with working About page:"
+          head -c 16 _pages/about.md | od -An -tx1
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
