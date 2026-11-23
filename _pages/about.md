@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: '<a href="mailto:pstatavarti@gmail.com">pstatavarti@gmail.com</a> · <a href="mailto:ptatavar@andrew.cmu.edu">ptatavar@andrew.cmu.edu</a>'
 
 profile:
   align: right
