@@ -97,6 +97,13 @@ jobs:
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
+      - name: Check generated Coursework page
+        run: |
+          echo "Checking source file..."
+          ls -l _pages/coursework.md
+      
+          echo "Searching generated website..."
+          find _site -iname '*coursework*' -print
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
