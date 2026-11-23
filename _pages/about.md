@@ -31,6 +31,6 @@ Hello
 
 My name is Pranav Tatavarti
 
-I’m an Electrical and Computer Engineering Undergraduate (Senior) at Carnegie Mellon University. Interested in Computer Systems and Deep Learning. 
+I’m an Electrical and Computer Engineering Undergraduate (Senior) at Carnegie Mellon University interested in Computer Systems and Deep Learning. 
 
 I’m additionally interested in the Environment, History, Population Genomics, Anthropology, Nutrition, Sports, and Philosophy
