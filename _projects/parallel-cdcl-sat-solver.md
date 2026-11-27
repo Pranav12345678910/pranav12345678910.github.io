@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: Parallel CDCL SAT Solver
